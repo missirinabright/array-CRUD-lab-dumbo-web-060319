@@ -14,6 +14,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   new_arr.unshift("wow")
+  puts new_arr.inspect
 end
 
 def remove_element_from_end_of_array(array)
